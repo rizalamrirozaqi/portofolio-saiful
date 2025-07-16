@@ -38,14 +38,14 @@ const publicService = [
 export default function Home() {
   return (
     <main className="w-full px-4 sm:px-10 md:px-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-white flex justify-center items-start">
-      <div className="flex min-h-screen max-w-screen-xl w-full flex-col items-start justify-start gap-16 md:gap-28">
+      <div className="flex min-h-screen max-w-screen-xl w-full flex-col items-center justify-start gap-16 md:gap-28">
 
-        <div className="appear flex flex-col-reverse lg:flex-row w-full h-full items-start justify-start py-20 md:py-28 gap-10">
-          <div className="flex items-start justify-start w-full h-full">
-            <div className="w-full max-w-2xl h-full flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-3">
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold w-full">I&apos;m Designer</h1>
-              <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold w-full text-wrap md:text-nowrap">Muhammad Saiful Akbar</h1>
-              <p className="text-base md:text-lg">
+        <div className="appear flex flex-col-reverse lg:flex-row w-full h-full items-center justify-center py-20 md:py-28 gap-10">
+          <div className="flex items-center justify-center w-full h-full">
+            <div className="w-full max-w-2xl h-full flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-3">
+              <h1 className="text-5xl sm:text-6xl font-bold">I&apos;m Designer</h1>
+              <h1 className="text-5xl sm:text-6xl font-bold text-nowrap">Muhammad Saiful Akbar</h1>
+              <p className="text-base">
                 Hi! I&apos;m Saiful, a freelance motion designer based in Indonesia with extensive experience in both 2D and 3D graphic design. I specialize in creating visually engaging posters, brochures, and logos, as well as 3D models of robot characters and other creative assets—perfect for games, animations, and product visualizations. I&apos;m passionate about delivering results that are not only detailed and attractive but also tailored to each client&apos;s unique needs. Thank you for taking the time to explore my portfolio. I look forward to the opportunity to collaborate with you!
               </p>
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         <div className="w-full h-full flex flex-col items-start gap-10 py-10 md:py-20">
-          <h1 className="appear text-4xl md:text-6xl font-bold w-full text-start lg:text-left">About Me</h1>
+          <h1 className="appear text-4xl md:text-6xl font-bold w-full text-center lg:text-left">About Me</h1>
           <div className="flex w-full h-full items-start justify-center flex-col lg:flex-row gap-12 lg:gap-4">
             <div className="w-full h-full flex flex-col items-start justify-start gap-5">
               <p className="text-base appear">
@@ -90,23 +90,23 @@ export default function Home() {
                 <h1 className="text-2xl appear font-semibold">Tools:</h1>
                 <ul className="list-none pl-5 w-full h-full grid grid-cols-2 gap-3">
                   <li className="text-xl flex flex-row items-center py-1 gap-2 appear">
-                    <Image src="/assets/img/ai.png" alt="Adobe Illustrator" width={20} height={20} className="w-5 h-5 sm:w-6 sm:h-6 object-contain" />
+                    <Image src="/assets/img/ai.png" alt="Adobe Illustrator" width={20} height={20} className="w-auto h-full" />
                     <p>Illustrator</p>
                   </li>
                   <li className="text-xl flex flex-row items-center py-1 gap-2 appear">
-                    <Image src="/assets/img/photoshop.png" alt="Adobe Photoshop" width={20} height={20} className="w-5 h-5 sm:w-6 sm:h-6 object-contain" />
+                    <Image src="/assets/img/photoshop.png" alt="Adobe Photoshop" width={20} height={20} className="w-auto h-full" />
                     <p>Photoshop</p>
                   </li>
                   <li className="text-xl flex flex-row items-center py-1 gap-2 appear">
-                    <Image src="/assets/img/ae.png" alt="Adobe After Effects" width={20} height={20} className="w-5 h-5 sm:w-6 sm:h-6 object-contain" />
+                    <Image src="/assets/img/ae.png" alt="Adobe After Effects" width={20} height={20} className="w-auto h-full" />
                     <p>After Effects</p>
                   </li>
                   <li className="text-xl flex flex-row items-center py-1 gap-2 appear">
-                    <Image src="/assets/img/blender.png" alt="Blender" width={20} height={20} className="w-5 h-5 sm:w-6 sm:h-6 object-contain" />
+                    <Image src="/assets/img/blender.png" alt="Blender" width={20} height={20} className="w-auto h-full" />
                     <p>Blender</p>
                   </li>
                   <li className="text-xl flex flex-row items-center py-1 gap-2 appear">
-                    <Image src="/assets/img/canva.png" alt="Canva" width={20} height={20} className="w-5 h-5 sm:w-6 sm:h-6 object-contain" />
+                    <Image src="/assets/img/canva.png" alt="Canva" width={20} height={20} className="w-auto h-full" />
                     <p>Canva</p>
                   </li>
                 </ul>
@@ -115,46 +115,46 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex w-full h-full flex-col items-start lg:items-start justify-start py-10 md:py-20 gap-8">
-            <h1 className="appear text-4xl md:text-6xl font-bold text-left lg:text-left">Personal Skills</h1>
+        <div className="flex w-full h-full flex-col items-center lg:items-start justify-start py-10 md:py-20 gap-8">
+            <h1 className="appear text-4xl md:text-6xl font-bold text-center lg:text-left">Personal Skills</h1>
             <ul className="list-none w-full h-full gap-8 grid md:grid-cols-2 lg:grid-cols-3">
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <Target />
                   <h2 className="text-2xl font-semibold">Creative & Productive</h2>
                 </div>
                 <p className="text-base max-w-xs">Always eager to bring unique visual ideas to life — either from client briefs or personal initiatives.</p>
               </li>
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <Clock />
                   <h2 className="text-2xl font-semibold">Disciplined & On Time</h2>
                 </div>
                 <p className="text-base max-w-xs">Able to manage deadlines and deliver work on schedule, even when working independently.</p>
               </li>
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <BookOpenCheck />
                   <h2 className="text-2xl font-semibold">Quick Learner</h2>
                 </div>
                 <p className="text-base max-w-xs">Open to learning new tools and styles quickly, and flexible to match different project needs.</p>
               </li>
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <Volume />
                   <h2 className="text-2xl font-semibold">Good Communication</h2>
                 </div>
                 <p className="text-base max-w-xs">Able to communicate clearly with clients, especially when discussing revisions or feedback.</p>
               </li>
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <Lightbulb />
                   <h2 className="text-2xl font-semibold">Problem Solving</h2>
                 </div>
                 <p className="text-base max-w-xs">Willing to find creative solutions when facing design or technical challenges.</p>
               </li>
-              <li className="appear flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-2">
-                <div className="flex flex-row gap-3 items-start">
+              <li className="appear flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-2">
+                <div className="flex flex-row gap-3 items-center">
                   <Handshake />
                   <h2 className="text-2xl font-semibold">Collaborative</h2>
                 </div>
@@ -220,7 +220,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex w-full h-full flex-col py-10 md:py-20 gap-8 items-start lg:items-start">
+        <div className="flex w-full h-full flex-col py-10 md:py-20 gap-8 items-center lg:items-start">
           <h1 className="text-4xl md:text-5xl appear font-bold text-center lg:text-left">Contact Me</h1>
           <ul className="list-none w-full h-full gap-8 flex flex-col md:flex-row md:flex-wrap items-start justify-start">
             <li className="appear flex flex-row gap-4 items-center">
