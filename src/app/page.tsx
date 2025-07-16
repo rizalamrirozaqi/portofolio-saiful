@@ -227,21 +227,21 @@ export default function Home() {
               <Phone size={28} />
               <div className="flex flex-col">
                 <h2 className="text-2xl font-semibold">Phone / WhatsApp</h2>
-                <a href="tel:+6281234567890" className="text-base hover:text-amber-500">+62 812-3456-7890</a>
+                <a href="tel:+6283102703891" className="text-base hover:text-amber-500">+62 831-0270-3891</a>
               </div>
             </li>
             <li className="appear flex flex-row gap-4 items-center">
               <Mail size={28} />
               <div className="flex flex-col">
                 <h2 className="text-2xl font-semibold">Email</h2>
-                <a href="mailto:saiful.akbar@example.com" className="text-base hover:text-amber-500">saifulakbar1103@gmail.com</a>
+                <a href="mailto:saiful.akbar1103@gmail.com" className="text-base hover:text-amber-500">saifulakbar1103@gmail.com</a>
               </div>
             </li>
             <li className="appear flex flex-row gap-4 items-center">
               <Instagram size={28} />
               <div className="flex flex-col">
                 <h2 className="text-2xl font-semibold">Instagram</h2>
-                <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="text-base hover:text-amber-500">@saifull_msa</a>
+                <a href="https://www.instagram.com/saifull_msa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-base hover:text-amber-500">@saifull_msa</a>
               </div>
             </li>
           </ul>
