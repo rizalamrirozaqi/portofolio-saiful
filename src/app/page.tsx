@@ -234,7 +234,7 @@ export default function Home() {
               <Mail size={28} />
               <div className="flex flex-col">
                 <h2 className="text-2xl font-semibold">Email</h2>
-                <a href="mailto:saiful.akbar@example.com" className="text-base hover:text-amber-500">saiful.akbar@example.com</a>
+                <a href="mailto:saiful.akbar@example.com" className="text-base hover:text-amber-500">saifulakbar1103@gmail.com</a>
               </div>
             </li>
             <li className="appear flex flex-row gap-4 items-center">
