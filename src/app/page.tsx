@@ -208,8 +208,8 @@ export default function Home() {
           </div>
 
           <div className="w-full flex flex-col gap-4">
-            <h2 className="text-3xl md:text-4xl font-bold appear">Public Service Announcement</h2>
-            <div className="appear w-full overflow-x-auto whitespace-nowrap py-4">
+            <h2 className="text-3xl md:text-4xl font-bold appear ">Public Service Announcement</h2>
+            <div className="appear w-full overflow-x-auto whitespace-nowrap py-4 ">
               <div className="inline-flex gap-4">
                 {publicService.map((src, i) => (
                   <Image key={i} src={src} alt={`Public Service Image ${i+1}`} width={300} height={500}
@@ -241,13 +241,13 @@ export default function Home() {
               <Instagram size={28} />
               <div className="flex flex-col">
                 <h2 className="text-2xl font-semibold">Instagram</h2>
-                <a href="https://www.instagram.com/saifull_msa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-base hover:text-amber-500">@saifull_msa</a>
+                <a href="https://www.instagram.com/saifull_msa" className="text-base hover:text-amber-500">@saifull_msa</a>
               </div>
             </li>
           </ul>
         </div>
 
-        <div className="footer pb-20 appear w-full justify-center flex items-center h-full text-base">
+        <div className="footer pb-20 appear w-full justify-center flex items-center h-full text-base text-center">
             <p>&copy; {new Date().getFullYear()} Muhammad Saiful Akbar. All Rights Reserved.</p>
         </div>
       </div>
