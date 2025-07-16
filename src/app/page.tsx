@@ -247,7 +247,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="footer pb-20">
+        <div className="footer pb-20 appear w-full justify-center flex items-center h-full text-base">
             <p>&copy; {new Date().getFullYear()} Muhammad Saiful Akbar. All Rights Reserved.</p>
         </div>
       </div>
