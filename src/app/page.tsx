@@ -176,8 +176,8 @@ export default function Home() {
             <div className="appear w-full overflow-x-auto whitespace-nowrap py-4">
               <div className="inline-flex gap-4">
                 {threedimageList.map((src, i) => (
-                  <Image key={i} src={src} alt={`3D Model ${i+1}`} width={500} height={500}
-                    className="h-64 w-64 md:h-80 md:w-80 object-cover rounded-lg" />
+                  <Image key={i} src={src} alt={`3D Model ${i+1}`} width={500} height={250}
+                    className="h-48 w-80 md:h-56 md:w-[500px] object-cover rounded-lg" />
                 ))}
               </div>
             </div>
@@ -188,8 +188,8 @@ export default function Home() {
             <div className="appear w-full overflow-x-auto whitespace-nowrap py-4">
               <div className="inline-flex gap-4">
                 {shirtDesignList.map((src, i) => (
-                  <Image key={i} src={src} alt={`Shirt Design ${i+1}`} width={500} height={500}
-                    className="h-64 w-64 md:h-80 md:w-80 object-cover rounded-lg bg-gray-200" />
+                  <Image key={i} src={src} alt={`Shirt Design ${i+1}`} width={500} height={250}
+                    className="h-48 w-80 md:h-56 md:w-[500px] object-cover rounded-lg bg-gray-200" />
                 ))}
               </div>
             </div>
