@@ -164,7 +164,7 @@ export default function Home() {
         </div>
         
         <div className="flex w-full h-full flex-col items-start justify-start gap-12 py-10 md:py-20">
-          <div className="w-full h-full flex flex-col items-center text-center lg:items-start lg:text-left justify-start gap-3">
+          <div className="w-full h-full flex flex-col items-start text-start lg:items-start lg:text-left justify-start gap-3">
             <h1 className="text-4xl md:text-6xl font-bold appear">Design Showcase</h1>
             <p className="text-base appear max-w-2xl">
               Dive into some of the projects I&apos;ve crafted with creativity and strategy in mind. These works represent my approach to design: thoughtful, meaningful, and visually engaging.
