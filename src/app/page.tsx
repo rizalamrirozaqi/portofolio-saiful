@@ -6,7 +6,7 @@ const threedimageList = [
   "/assets/img/3d/cup-oppai.png",
   "/assets/img/3d/mk-pose4.jpg",
   "/assets/img/3d/strike-freedom.jpg",
-  "/assets/img/istri-saiful.png",
+  // "/assets/img/istri-saiful.png",
 ];
 
 const shirtDesignList = [
